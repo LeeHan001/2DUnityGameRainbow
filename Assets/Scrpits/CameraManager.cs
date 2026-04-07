@@ -6,9 +6,9 @@ public class CameraManager : MonoBehaviour
 {
     static public CameraManager instance;
 
-    public GameObject target; //카메라 포착 대상
+    public GameObject target; //Camera target
     public float movespeed;
-    private Vector3 targetPosition;// 대상의 위치
+    private Vector3 targetPosition;// Position target
     public bool CameraMove = true;
  
     public BoxCollider2D bound;
